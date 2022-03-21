@@ -1,5 +1,6 @@
 # Reinforcement-learning
-# 1. Implementation of Monte Carlo Off policy - Monte Carlo Methods sample and average returns for each state-action pair. On-policy methods attempt to evaluate or improve the policy that is used to make decisions. Off-policy methods evaluate or improve a policy different from that used to generate the data.
+# 1. Implementation of Monte Carlo Off policy:
+ Monte Carlo Methods sample and average returns for each state-action pair. On-policy methods attempt to evaluate or improve the policy that is used to make decisions. Off-policy methods evaluate or improve a policy different from that used to generate the data.
 
 ➢ The main difference between Monte Carlo control and Off-policy MC control is that, Offpolicy evaluates and improves the optimal policy, allowing the agent to explore without damaging the State-Action values. Here, the method has two policies,
 • Target Policy, which is a policy that is being learnt, which becomes the optimal policy, and
